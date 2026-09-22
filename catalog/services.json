@@ -1,0 +1,181 @@
+[
+  {
+    "id": "divorcio_mutuo_acuerdo",
+    "legal_area": "Familia",
+    "service": "Divorcio de mutuo acuerdo",
+    "description": "Divorcio cuando ambos cónyuges están de acuerdo en terminar el matrimonio, ante notaría.",
+    "keywords": ["divorcio de mutuo acuerdo", "divorcio notarial", "ambos queremos divorciarnos", "divorcio consensuado"],
+    "qualification_questions": [
+      "¿Ambos cónyuges están de acuerdo con el divorcio?",
+      "¿Hay hijos menores de edad?",
+      "¿Tienen bienes o deudas por repartir?"
+    ],
+    "required_documents": ["Registro civil de matrimonio", "Documentos de identidad de ambos cónyuges"],
+    "process_information": ["Se tramita ante notaría", "No requiere proceso judicial cuando hay pleno acuerdo"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "Costo notarial variable según la notaría y la cuantía del acuerdo" },
+    "active": true,
+    "cta": "Hablar con un abogado"
+  },
+  {
+    "id": "divorcio_unilateral",
+    "legal_area": "Familia",
+    "service": "Divorcio unilateral",
+    "description": "Divorcio por la sola voluntad de uno de los cónyuges, cuando el otro no está de acuerdo.",
+    "keywords": ["no quiere divorciarse", "no quiere el divorcio", "no está de acuerdo con el divorcio", "divorciarme sin su consentimiento", "divorcio unilateral", "divorcio sin acuerdo", "quiero divorciarme y el no quiere", "quiero divorciarme y ella no quiere"],
+    "qualification_questions": [
+      "¿Hay hijos menores de edad?",
+      "¿Existe algún acuerdo entre los cónyuges sobre alimentos, custodia o bienes?",
+      "¿Están en Colombia o en el exterior?"
+    ],
+    "required_documents": ["Registro civil de matrimonio", "Documento de identidad"],
+    "process_information": ["Requiere proceso judicial", "El tiempo depende del despacho y de si hay oposición"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "Gastos judiciales variables según el juzgado" },
+    "active": true,
+    "cta": "Hablar con un abogado"
+  },
+  {
+    "id": "divorcio_express_exterior",
+    "legal_area": "Familia",
+    "service": "Divorcio express para colombianos en el exterior",
+    "description": "Divorcio de mutuo acuerdo tramitado a distancia para colombianos que residen fuera del país.",
+    "keywords": ["divorcio express", "estoy en el exterior", "divorcio desde otro país", "divorcio online", "vivo fuera de colombia y quiero divorciarme"],
+    "qualification_questions": [
+      "¿En qué país resides actualmente?",
+      "¿Ambos cónyuges están de acuerdo con el divorcio?",
+      "¿Hay hijos menores de edad?"
+    ],
+    "required_documents": ["Registro civil de matrimonio", "Documento de identidad", "Poder si no puede firmar presencialmente"],
+    "process_information": ["Se puede adelantar de forma remota", "Contacto principal por WhatsApp"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "Costo notarial variable" },
+    "active": true,
+    "cta": "Escríbenos por WhatsApp",
+    "cost_note": "Servicio de referencia: WhatsApp 3167824217"
+  },
+  {
+    "id": "sucesion_notarial",
+    "legal_area": "Sucesiones",
+    "service": "Sucesión notarial",
+    "description": "Trámite de herencia ante notaría cuando los herederos están de acuerdo.",
+    "keywords": ["sucesión", "herencia", "partición de bienes", "liquidación de herencia", "falleció mi familiar"],
+    "qualification_questions": [
+      "¿Todos los herederos están de acuerdo?",
+      "¿Existe testamento?",
+      "¿Qué tipo de bienes hacen parte de la herencia?"
+    ],
+    "required_documents": ["Registro civil de defunción", "Registros civiles de los herederos", "Certificados de los bienes"],
+    "process_information": ["Se tramita ante notaría cuando hay acuerdo entre herederos"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "Costo notarial variable según el valor de los bienes" },
+    "active": true,
+    "cta": "Hablar con un abogado"
+  },
+  {
+    "id": "cobro_ejecutivo",
+    "legal_area": "Civil y Comercial",
+    "service": "Cobro ejecutivo",
+    "description": "Cobro judicial de obligaciones respaldadas en pagarés, letras u otros títulos.",
+    "keywords": ["me deben dinero", "cobro de pagaré", "cobro ejecutivo", "no me han pagado", "letra de cambio"],
+    "qualification_questions": [
+      "¿Cuenta con el título valor o documento que respalda la deuda?",
+      "¿Cuál es el monto aproximado de la deuda?",
+      "¿Ha intentado cobrar previamente?"
+    ],
+    "required_documents": ["Título valor (pagaré, letra u otro)", "Documento de identidad del acreedor"],
+    "process_information": ["Se tramita ante juzgado civil"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "Gastos judiciales variables según la cuantía" },
+    "active": true,
+    "cta": "Hablar con un abogado"
+  },
+  {
+    "id": "liquidacion_laboral",
+    "legal_area": "Laboral",
+    "service": "Liquidación laboral",
+    "description": "Reclamación de prestaciones sociales y liquidación tras la terminación de un contrato de trabajo.",
+    "keywords": ["me despidieron", "liquidación laboral", "no me pagaron prestaciones", "terminación de contrato"],
+    "qualification_questions": [
+      "¿Cuándo terminó la relación laboral?",
+      "¿Le pagaron alguna liquidación?",
+      "¿Tiene el contrato o comprobantes de pago?"
+    ],
+    "required_documents": ["Contrato de trabajo", "Comprobantes de pago", "Carta de terminación si existe"],
+    "process_information": ["Se evalúa vía reclamación directa o proceso laboral"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "Gastos judiciales variables" },
+    "active": true,
+    "cta": "Hablar con un abogado"
+  },
+  {
+    "id": "reconocimiento_pension",
+    "legal_area": "Pensiones",
+    "service": "Reconocimiento de pensión",
+    "description": "Trámite y/o reclamación para el reconocimiento de una pensión negada o no resuelta.",
+    "keywords": ["me negaron la pensión", "reconocimiento de pensión", "semanas cotizadas", "traslado de régimen"],
+    "qualification_questions": [
+      "¿Ya presentó la solicitud ante el fondo o Colpensiones?",
+      "¿Le negaron la pensión formalmente?",
+      "¿Sabe cuántas semanas tiene cotizadas aproximadamente?"
+    ],
+    "required_documents": ["Historia laboral", "Respuesta de negación si existe"],
+    "process_information": ["Se evalúa vía reclamación administrativa o proceso judicial"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "Gastos judiciales variables" },
+    "active": true,
+    "cta": "Hablar con un abogado"
+  },
+  {
+    "id": "accion_tutela",
+    "legal_area": "Constitucional",
+    "service": "Acción de tutela",
+    "description": "Mecanismo para proteger derechos fundamentales vulnerados o amenazados.",
+    "keywords": ["tutela", "derechos fundamentales", "me están vulnerando un derecho", "EPS no me atiende"],
+    "qualification_questions": [
+      "¿Qué derecho considera que le están vulnerando?",
+      "¿Quién es la entidad o persona responsable?",
+      "¿Es una situación urgente para su salud o integridad?"
+    ],
+    "required_documents": ["Documento de identidad", "Pruebas de la vulneración si existen"],
+    "process_information": ["Trámite judicial preferente y de resolución rápida"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "Generalmente no tiene costos judiciales" },
+    "active": true,
+    "cta": "Hablar con un abogado"
+  },
+  {
+    "id": "revision_vivienda",
+    "legal_area": "Vivienda",
+    "service": "Revisión de obligaciones de vivienda",
+    "description": "Revisión de créditos hipotecarios o contratos de leasing habitacional.",
+    "keywords": ["crédito hipotecario", "leasing habitacional", "problema con mi vivienda", "revisión de hipoteca"],
+    "qualification_questions": [
+      "¿Tiene crédito hipotecario o leasing habitacional?",
+      "¿Cuál es el problema específico que quiere revisar?"
+    ],
+    "required_documents": ["Contrato o pagaré del crédito", "Extractos recientes"],
+    "process_information": ["Se inicia con una revisión documental del contrato"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "No aplica en la etapa de revisión" },
+    "active": true,
+    "cta": "Hablar con un abogado"
+  },
+  {
+    "id": "registro_marca",
+    "legal_area": "Propiedad Intelectual",
+    "service": "Registro de marca",
+    "description": "Registro de marcas ante la Superintendencia de Industria y Comercio (SIC).",
+    "keywords": ["registrar mi marca", "registro de marca", "SIC", "proteger mi marca"],
+    "qualification_questions": [
+      "¿Qué tipo de marca desea registrar (nombre, logo o ambos)?",
+      "¿A qué actividad económica se dedica su marca?"
+    ],
+    "required_documents": ["Logo o nombre a registrar", "Documento de identidad o de la empresa"],
+    "process_information": ["Trámite ante la SIC", "Incluye búsqueda de antecedentes y clasificación Niza"],
+    "professional_fee": { "amount": null, "note": "Pendiente de definir por ELITH IA LEGAL TECH" },
+    "external_cost": { "amount": null, "note": "Tasa oficial de la SIC, variable según clase" },
+    "active": true,
+    "cta": "Hablar con un abogado"
+  }
+]
