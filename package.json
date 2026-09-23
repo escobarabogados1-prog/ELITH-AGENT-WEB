@@ -2,7 +2,7 @@
   "name": "elithlex-agent",
   "version": "0.1.0",
   "private": true,
-  "description": "ELITH IA \u00b7 Motor Comercial Jur\u00eddico \u2014 app independiente de captaci\u00f3n y precalificaci\u00f3n de leads para ELITH IA LEGAL TECH",
+  "description": "ELITH IA · Motor Comercial Jurídico — app independiente de captación y precalificación de leads para ELITH IA LEGAL TECH",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,6 +12,7 @@
     "test:flow": "tsx scripts/test-flow.ts"
   },
   "dependencies": {
+    "@openrouter/ai-sdk-provider": "^1.2.1",
     "ai": "^5.0.0",
     "next": "^15.0.0",
     "react": "^18.3.1",
@@ -19,7 +20,7 @@
     "zod": "^3.23.8"
   },
   "optionalDependencies": {
-    "pg": "^8.12.0"
+    "pg": "^8.23.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",
